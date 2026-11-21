@@ -1,6 +1,6 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const joke = "My AI coding agent guarded `DROP TABLE` with a feature flag; the diff checks the flag after the table is gone.";
+const joke = "I fired my AI coding agent. In its 'Offboarding' PR, it added itself to `postinstall`.";
 const codePoints = [...joke].length;
 
 if (!joke.trim() || joke.includes("\n") || codePoints > 280) {

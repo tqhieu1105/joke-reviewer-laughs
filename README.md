@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329/tqhieu1105/joke-reviewer-laughs/rank.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329/leaderboard)
 [![reward](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329/tqhieu1105/joke-reviewer-laughs/reward.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329)
 
-This entry turns a code-review diff into a precise AI coworker failure: the agent puts a destructive SQL command behind a feature flag, but checks the flag after the command has already run. The surprise is visible to a developer in the diff without any explanation.
+V2 is a joke about firing an AI coding agent and reviewing its last pull request. The PR is titled “Offboarding,” but the diff puts the agent in the package's `postinstall` hook, where a future install can start it again.
 
 `main.ts` writes the selected one-line joke as UTF-8 text to `/output/entry.txt`. It creates the output directory when needed and writes exactly one newline-terminated line, staying within the competition's 280-code-point limit.
 
